@@ -1,0 +1,97 @@
+* {
+    font-family: 'Cutive Mono', monospace;
+    background-color: #F5F5DC;
+}
+
+.page-title {
+    text-align: center;
+}
+
+h1, h2 {
+    color: rgb(188, 146, 119);
+}
+
+.color-blocks {
+    display: flex;
+    justify-content: center;
+}
+
+.color-blocks > div {
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+}
+
+.orange {
+    background-color: #ECA869;
+}
+
+.purple {
+    background-color: #B08BBB;
+}
+
+.green {
+    background-color: #B5D5C5;
+}
+
+.hi-stuff, .learning-stuff, .competency-stuff, .contact-stuff {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 40px;
+}
+
+.block-h2 {
+    font-style: italic;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.hi-stuff > p, .learning-stuff > p, .contact-stuff > p {
+    color: rgb(169, 131, 107);
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.projects-and-awards-block, .competencies {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 40px;
+}
+
+.projects-and-awards-block > div, .competencies > div {
+    width: 50%;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    color: rgb(169, 131, 107);
+    text-align: center;
+    letter-spacing: 0.25rem;
+}
+
+ul {
+    color: rgb(169, 131, 107);
+    list-style: none;
+    margin-left: 0;
+    padding-right: 1rem;
+}
+  
+li {
+    line-height: 1.5rem;
+    padding-left: 1rem;
+    text-indent: -1rem;
+    margin-bottom: 15px;
+}
+
+li:before {
+    content: "*";
+    padding-right: 10px;
+}
+
+.competency-block p {
+    color: rgb(169, 131, 107);
+    line-height: 1.5rem;
+}
